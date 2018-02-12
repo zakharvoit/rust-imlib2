@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["Zakhar Voit <zakharvoit@gmail.com>"]
 
 [build-dependencies]
-bindgen = "0.26.3"
+bindgen = "0.31.3"
