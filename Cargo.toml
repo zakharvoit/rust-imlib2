@@ -1,0 +1,2 @@
+[workspace]
+members = ["imlib2-bindings"]

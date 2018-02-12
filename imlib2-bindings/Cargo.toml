@@ -1,0 +1,6 @@
+[package]
+name = "imlib2-bindings"
+version = "0.1.0"
+authors = ["za.voyt <za.voyt@region.tensor.ru>"]
+
+[dependencies]
