@@ -13,8 +13,8 @@ fn to_cstring(s: &str) -> CString {
 fn main() {
     unsafe {
         let usage = "\nConvert image from one format to another.\n\n\
-                          Usage:\n\
-                          simple-example <source> <destination>\n";
+                     Usage:\n\
+                     simple-example <source> <destination>\n";
         let mut args = std::env::args();
         let input_file = to_cstring(&args.nth(1).expect(usage));
         let output_file = args.next().expect(usage);
